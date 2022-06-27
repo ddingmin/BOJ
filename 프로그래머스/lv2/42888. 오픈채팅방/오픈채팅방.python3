@@ -1,0 +1,21 @@
+def solution(record):
+    answer = []
+    temp_user = []
+    user = {}
+    for i in range(len(record)):
+        temp = list(map(str, record[i].split()))
+        temp_user.append(temp)
+
+        u_id = temp[1]
+        if (temp[0] == "Enter"):
+            user[u_id] = temp[2]
+        if (temp[0] == "Change"):
+            user[u_id] = temp[2]
+
+    for i in range(len(temp_user)):
+        if temp_user[i][0] == "Enter":
+            answer.append(user[temp_user[i][1]]+"님이 들어왔습니다.")
+        if temp_user[i][0] == "Leave":
+            answer.append(user[temp_user[i][1]]+"님이 나갔습니다.")
+
+    return answer
