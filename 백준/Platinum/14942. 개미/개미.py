@@ -15,7 +15,7 @@ def dfs(power, room_number, start):
     ans[start] = room_number
     
     for togo, need in adj[room_number]:
-        if power >= need and room_value[togo][1] <= room_value[room_number][1]:
+        if power >= need and room_value[togo][1] < room_value[room_number][1]:
             dfs(power - need, togo, start)
 
 # bfs로 1번 룸에서 가장 가까운 방들 순서 정해주기.
