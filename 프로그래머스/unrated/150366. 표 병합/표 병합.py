@@ -7,7 +7,6 @@ for i in range(1, 51):
         cells[i][j] = index
         index += 1
 store = {}
-dx, dy = [0, 0, -1, 1], [-1, 1, 0, 0]
 
 def change(r, c, value):
     store[cells[r][c]] = value

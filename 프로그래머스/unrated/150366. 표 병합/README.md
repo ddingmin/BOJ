@@ -1,10 +1,10 @@
 # [unrated] 표 병합 - 150366 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150366#) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150366) 
 
 ### 성능 요약
 
-메모리: 10.7 MB, 시간: 93.14 ms
+메모리: 10.5 MB, 시간: 92.74 ms
 
 ### 구분
 
