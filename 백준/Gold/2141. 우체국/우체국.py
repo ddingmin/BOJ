@@ -4,7 +4,7 @@ input = __import__('sys').stdin.readline
 def solve(cnt, arr):
     arr = sorted(arr)
     if cnt % 2 == 1: idx = cnt // 2 + 1
-    else: idx = cnt // 2 - 1
+    else: idx = cnt // 2
     for i, j in arr:
         idx -= j
         
