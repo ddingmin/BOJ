@@ -4,11 +4,11 @@
 
 ### 성능 요약
 
-메모리: 30840 KB, 시간: 4000 ms
+메모리: 114844 KB, 시간: 3772 ms
 
 ### 분류
 
-비트마스킹(bitmask), 그리디 알고리즘(greedy), 구현(implementation), 수학(math), 시뮬레이션(simulation)
+비트마스킹(bitmask), 그리디 알고리즘(greedy), 수학(math)
 
 ### 문제 설명
 
