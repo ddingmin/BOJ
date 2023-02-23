@@ -1,0 +1,8 @@
+-- 코드를 입력하세요
+SELECT MCDP_CD AS 진료과코드, COUNT(MCDP_CD) AS 5월예약건수
+FROM APPOINTMENT
+-- 2022년 05에 예약한 환자
+WHERE year(APNT_YMD) = '2022' AND month(APNT_YMD) = '05'
+-- 진료과코드 별로
+GROUP BY MCDP_CD
+ORDER BY COUNT(MCDP_CD), MCDP_CD
