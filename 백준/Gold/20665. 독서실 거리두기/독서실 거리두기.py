@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 # input
 n, t, p = map(int, input().split())
 p -= 1
