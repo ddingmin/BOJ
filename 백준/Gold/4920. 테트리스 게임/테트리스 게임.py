@@ -45,13 +45,12 @@ def main():
     while 1:
         n = int(input())
         if n == 0:
-            break
+            exit()
         arr = [list(map(int, input().split())) for _ in range(n)]
         print(f"{idx}. {solve(n, arr)}")
         idx += 1
 
 
 if __name__ == '__main__':
-    sys.setrecursionlimit(10 ** 5)
     input = sys.stdin.readline
     main()
